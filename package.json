@@ -1,16 +1,15 @@
 {
   "name": "codemack",
   "version": "1.0.0",
-  "description": "portfolio website",
+  "description": "My Portfolio Website",
   "main": "index.js",
-  "homepage": "https://GMack88/github.io/code_mack",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "",
   "license": "",
   "dependencies": {
+    "express": "^4.17.1",
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
